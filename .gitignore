@@ -1,0 +1,5 @@
+.idea
+.env
+app/bot.session
+app/downloads
+app/bot.session-journal
