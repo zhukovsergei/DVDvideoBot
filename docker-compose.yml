@@ -1,0 +1,9 @@
+
+services:
+    telegram-bot:
+        build: .
+        env_file:
+            - .env
+        volumes:
+            - ./app:/app
+        command: python bot.py
